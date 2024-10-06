@@ -13,49 +13,49 @@ header{
     justify-content: center;
 }
 main {
-    padding: 2rem; /* Espaçamento interno do main */
+    padding: 2rem; 
 }
 
 .primeira{
-    display: flex; /* Flexbox para alinhar parágrafo e imagem */
-    align-items: center; /* Alinha verticalmente */
-    gap: 25rem; /* Espaço entre o parágrafo e a imagem */
+    display: flex; 
+    align-items: center; 
+    gap: 25rem;
 }
 
 .imagem-principal {
-    width: 25rem; /* Tamanho da imagem principal */
-    height: auto; /* Mantém a proporção */
-    max-width: 100%; /* Evita que a imagem estoure a tela */
+    width: 25rem;
+    height: auto; 
+    max-width: 100%; 
 }
 
 p {
-    max-width: 40rem; /* Largura máxima do parágrafo */
+    max-width: 40rem; 
 }
 
 .segunda {
-    display: flex; /* Flexbox para alinhar imagem, parágrafo e imagem */
-    align-items: center; /* Alinha verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
-    background-color: #4169E1; /* Cor de fundo da div.segunda */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #4169E1; 
     height: 40rem; 
-    gap: 1rem; /* Espaço entre os elementos */
-    margin-top: 2rem; /* Distância entre div.primeira e div.segunda */
+    gap: 1rem; 
+    margin-top: 2rem;
 }
 
 .imagem-secundaria {
-    width: 25rem; /* Tamanho das imagens secundárias */
-    height: 35rem; /* Altura das imagens secundárias */
+    width: 25rem;
+    height: 35rem; 
 }
 
 .terceira {
-    display: flex; /* Flexbox para alinhar as imagens */
-    flex-direction: column; /* Imagens em coluna */
-    align-items: center; /* Centraliza horizontalmente */
-    margin-top: 2rem; /* Distância entre div.segunda e div.terceira */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 2rem; 
 }
 
 .imagem-terceira {
-    width: 30rem; /* Tamanho das imagens na terceira div */
-    height: 40rem; /* Altura das imagens na terceira div */
-    margin: 0.5rem; /* Espaço entre as imagens */
+    width: 30rem;
+    height: 40rem; 
+    margin: 0.5rem; 
 }
